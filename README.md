@@ -1,12 +1,78 @@
-# React + Vite
+# Aplikasi Web CRM
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplikasi **Customer Relationship Management (CRM)** berbasis web yang dibangun menggunakan **ReactJS + Vite**, **NodeJS**, **ExpressJS**, **PostgreSQL**, dan **TailwindCSS**.  
+Aplikasi ini dirancang untuk membantu proses manajemen calon pelanggan (lead), produk/layanan, proyek, dan pelanggan yang telah berlangganan.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Fitur Utama
 
-## Expanding the ESLint configuration
+- 🔐 **Halaman Login** – Sistem autentikasi pengguna
+- 📋 **Halaman List Calon Customer (Lead)** – Menampilkan dan mengelola daftar calon pelanggan
+- 📦 **Halaman Master Produk (Layanan)** – Menambahkan dan mengelola layanan/produk
+- 📁 **Halaman Proyek** – Memproses calon customer menjadi proyek disertai approval dari manager
+- 👥 **Halaman Pelanggan** – Menampilkan pelanggan yang sudah berlangganan beserta daftar layanan mereka
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+| Bagian   | Teknologi                   |
+| -------- | --------------------------- |
+| Frontend | ReactJS + Vite, TailwindCSS |
+| Backend  | NodeJS, ExpressJS           |
+| Database | PostgreSQL                  |
+
+---
+
+## 🚀 Cara Menjalankan
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/msuryasyahruli/surya_crm.git
+cd crm-web-app
+```
+
+### 2. Konfigurasi Environment Variable
+
+Buat file .env
+
+```bash
+VITE_API_URL="api_key"
+```
+
+### 3. Install Dependency
+
+```bash
+npm install
+```
+
+### 4. Menjalankan Aplikasi
+
+```bash
+npm run dev
+```
+
+---
+
+## ✅ Role Pengguna
+
+- **Manager/Admin:** dapat meng-approve proyek
+- **Staff:** hanya bisa input dan proses lead
+
+---
+
+## 🗃️ Struktur Database (Umum)
+
+- users
+- products
+- customers
+
+---
+
+## 👨‍💻 Pengembang
+
+Dibuat oleh **Muhammad Surya Syahruli**
+
+![License: MIT](LESENCE)

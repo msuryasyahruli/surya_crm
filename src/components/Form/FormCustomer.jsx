@@ -63,6 +63,7 @@ const FormCustomer = ({ data, onSetData }) => {
           <option value="Baru">Baru</option>
           <option value="Tertunda">Tertunda</option>
           <option value="Disetujui">Disetujui</option>
+          <option value="Berlangganan">Berlangganan</option>
         </select>
       </div>
       <div className="flex flex-col mb-4">
