@@ -1,9 +1,11 @@
 # Aplikasi Web CRM
 
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
 Aplikasi **Customer Relationship Management (CRM)** berbasis web yang dibangun menggunakan **ReactJS + Vite**, **NodeJS**, **ExpressJS**, **PostgreSQL**, dan **TailwindCSS**.  
 Aplikasi ini dirancang untuk membantu proses manajemen calon pelanggan (lead), produk/layanan, proyek, dan pelanggan yang telah berlangganan.
 
----
+### 🔗 **Backend repository:** [Lihat Repository Backend](https://github.com/msuryasyahruli/BE-Customer-Relationship-Management-)
 
 ## ✨ Fitur Utama
 
@@ -17,11 +19,11 @@ Aplikasi ini dirancang untuk membantu proses manajemen calon pelanggan (lead), p
 
 ## 🛠️ Teknologi yang Digunakan
 
-| Bagian   | Teknologi                   |
-| -------- | --------------------------- |
-| Frontend | ReactJS + Vite, TailwindCSS |
-| Backend  | NodeJS, ExpressJS           |
-| Database | PostgreSQL                  |
+| Bagian     | Teknologi                          |
+|------------|------------------------------------|
+| Frontend   | ReactJS + Vite, TailwindCSS        |
+| Backend    | NodeJS, ExpressJS                  |
+| Database   | PostgreSQL                         |
 
 ---
 
@@ -35,7 +37,6 @@ cd crm-web-app
 ```
 
 ### 2. Konfigurasi Environment Variable
-
 Buat file .env
 
 ```bash
@@ -53,18 +54,17 @@ npm install
 ```bash
 npm run dev
 ```
+Pastikan backend juga berjalan. Kamu bisa temukan backend di sini: https://github.com/msuryasyahruli/BE-Customer-Relationship-Management-
 
 ---
 
 ## ✅ Role Pengguna
-
 - **Manager/Admin:** dapat meng-approve proyek
 - **Staff:** hanya bisa input dan proses lead
 
 ---
 
 ## 🗃️ Struktur Database (Umum)
-
 - users
 - products
 - customers
@@ -72,7 +72,6 @@ npm run dev
 ---
 
 ## 👨‍💻 Pengembang
+Dibuat oleh [Muhammad Surya Syahruli](https://github.com/msuryasyahruli)
 
-Dibuat oleh **Muhammad Surya Syahruli**
-
-![License: MIT](LESENCE)
+##### 📅 Tanggal pengerjaan: 10 April – 13 April 2025
