@@ -12,7 +12,7 @@ Aplikasi ini dirancang untuk membantu proses manajemen calon pelanggan (lead), p
 - 🔐 **Halaman Login** – Sistem autentikasi pengguna
 - 📋 **Halaman List Calon Customer (Lead)** – Menampilkan dan mengelola daftar calon pelanggan
 - 📦 **Halaman Master Produk (Layanan)** – Menambahkan dan mengelola layanan/produk
-- 📁 **Halaman Proyek** – Memproses calon customer menjadi proyek disertai approval dari manager
+<!-- - 📁 **Halaman Proyek** – Memproses calon customer menjadi proyek disertai approval dari manager -->
 - 👥 **Halaman Pelanggan** – Menampilkan pelanggan yang sudah berlangganan beserta daftar layanan mereka
 
 ---
@@ -72,8 +72,8 @@ Gunakan akun berikut untuk mencoba aplikasi:
 
 **Akun Admin**
 
-- Email: admin@mail.com
-- Password: admin123
+- Email: admin123@mail.com
+- Password: adminadmin
 
 ---
 
