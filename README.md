@@ -19,11 +19,11 @@ Aplikasi ini dirancang untuk membantu proses manajemen calon pelanggan (lead), p
 
 ## 🛠️ Teknologi yang Digunakan
 
-| Bagian     | Teknologi                          |
-|------------|------------------------------------|
-| Frontend   | ReactJS + Vite, TailwindCSS        |
-| Backend    | NodeJS, ExpressJS                  |
-| Database   | PostgreSQL                         |
+| Bagian   | Teknologi                   |
+| -------- | --------------------------- |
+| Frontend | ReactJS + Vite, TailwindCSS |
+| Backend  | NodeJS, ExpressJS           |
+| Database | PostgreSQL                  |
 
 ---
 
@@ -37,6 +37,7 @@ cd crm-web-app
 ```
 
 ### 2. Konfigurasi Environment Variable
+
 Buat file .env
 
 ```bash
@@ -54,17 +55,20 @@ npm install
 ```bash
 npm run dev
 ```
+
 Pastikan backend juga berjalan. Kamu bisa temukan backend di sini: https://github.com/msuryasyahruli/BE-Customer-Relationship-Management-
 
 ---
 
 ## ✅ Role Pengguna
+
 - **Manager/Admin:** dapat meng-approve proyek
 - **Staff:** hanya bisa input dan proses lead
 
 ---
 
 ## 🗃️ Struktur Database (Umum)
+
 - users
 - products
 - customers
@@ -72,6 +76,7 @@ Pastikan backend juga berjalan. Kamu bisa temukan backend di sini: https://githu
 ---
 
 ## 👨‍💻 Pengembang
+
 Dibuat oleh [Muhammad Surya Syahruli](https://github.com/msuryasyahruli)
 
 ##### 📅 Tanggal pengerjaan: 10 April – 13 April 2025
