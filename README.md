@@ -67,6 +67,16 @@ Pastikan backend juga berjalan. Kamu bisa temukan backend di sini: https://githu
 
 ---
 
+## 🔑 Info Login
+Gunakan akun berikut untuk mencoba aplikasi:
+
+**Akun Admin**
+
+- Email: admin@mail.com
+- Password: admin123
+
+---
+
 ## 🗃️ Struktur Database (Umum)
 
 - users
