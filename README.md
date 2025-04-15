@@ -1,5 +1,19 @@
 # Aplikasi Web CRM
 
+## Table of Contents
+
+- [Aplikasi Web CRM](#aplikasi-web-crm)
+- [Fitur Utama](#-fitur-utama)
+- [Teknologi yang Digunakan](#️-teknologi-yang-digunakan)
+- [Cara Menjalankan](#-cara-menjalankan)
+  - [Clone Repository](#1-clone-repository)
+  - [Konfigurasi Environment Variable](#2-konfigurasi-environment-variable)
+  - [Install Dependency](#3-install-dependency)
+  - [Menjalankan Aplikasi](#4-menjalankan-aplikasi)
+- [Info Login](#-info-login)
+- [Struktur Database (Umum)](#️-struktur-database-umum)
+- [Pengembang](#-pengembang)
+
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
 Aplikasi **Customer Relationship Management (CRM)** berbasis web yang dibangun menggunakan **ReactJS + Vite**, **NodeJS**, **ExpressJS**, **PostgreSQL**, dan **TailwindCSS**.  
@@ -12,8 +26,8 @@ Aplikasi ini dirancang untuk membantu proses manajemen calon pelanggan (lead), p
 - 🔐 **Halaman Login** – Sistem autentikasi pengguna
 - 📋 **Halaman List Calon Customer (Lead)** – Menampilkan dan mengelola daftar calon pelanggan
 - 📦 **Halaman Master Produk (Layanan)** – Menambahkan dan mengelola layanan/produk
-<!-- - 📁 **Halaman Proyek** – Memproses calon customer menjadi proyek disertai approval dari manager -->
 - 👥 **Halaman Pelanggan** – Menampilkan pelanggan yang sudah berlangganan beserta daftar layanan mereka
+<!-- - 📁 **Halaman Proyek** – Memproses calon customer menjadi proyek disertai approval dari manager -->
 
 ---
 
@@ -62,6 +76,7 @@ Pastikan backend juga berjalan. Kamu bisa temukan backend di sini: https://githu
 ---
 
 ## 🔑 Info Login
+
 Gunakan akun berikut untuk mencoba aplikasi:
 
 **Akun Admin**
