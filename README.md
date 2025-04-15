@@ -33,7 +33,8 @@ Aplikasi ini dirancang untuk membantu proses manajemen calon pelanggan (lead), p
 
 ```bash
 git clone https://github.com/msuryasyahruli/surya_crm.git
-cd crm-web-app
+cd surya_crm
+code .
 ```
 
 ### 2. Konfigurasi Environment Variable
@@ -57,13 +58,6 @@ npm run dev
 ```
 
 Pastikan backend juga berjalan. Kamu bisa temukan backend di sini: https://github.com/msuryasyahruli/BE-Customer-Relationship-Management-
-
----
-
-## ✅ Role Pengguna
-
-- **Manager/Admin:** dapat meng-approve proyek
-- **Staff:** hanya bisa input dan proses lead
 
 ---
 
