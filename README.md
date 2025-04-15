@@ -72,7 +72,7 @@ Gunakan akun berikut untuk mencoba aplikasi:
 
 **Akun Admin**
 
-- Email: admin123@mail.com
+- Email: admin123@gmail.com
 - Password: adminadmin
 
 ---
