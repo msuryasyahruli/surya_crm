@@ -1,5 +1,7 @@
 # Aplikasi Web CRM
 
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
 ## Table of Contents
 
 - [Aplikasi Web CRM](#aplikasi-web-crm)
@@ -13,8 +15,6 @@
 - [Info Login](#-info-login)
 - [Struktur Database (Umum)](#️-struktur-database-umum)
 - [Pengembang](#-pengembang)
-
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
 Aplikasi **Customer Relationship Management (CRM)** berbasis web yang dibangun menggunakan **ReactJS + Vite**, **NodeJS**, **ExpressJS**, **PostgreSQL**, dan **TailwindCSS**.  
 Aplikasi ini dirancang untuk membantu proses manajemen calon pelanggan (lead), produk/layanan, proyek, dan pelanggan yang telah berlangganan.
